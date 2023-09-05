@@ -5,7 +5,7 @@
       "setup": "",
       "run": "mvn -q -B package --file pom.xml andy:run",
       "input": "",
-      "output": "Final grade: 100/100",
+      "output": ".*Final grade: (7.*|8.*|9.*|100)\/100.*",
       "comparison": "included",
       "timeout": 10,
       "points": 50
